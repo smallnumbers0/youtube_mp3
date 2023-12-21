@@ -31,7 +31,7 @@ app.post("/convert-mp3", async (req, res)=> {
         const fetchAPI = await fetch(`https://youtube-mp36.p.rapidapi.com/dl?id=${videoId}`, { 
             "method" : "GET",
             "headers" : {
-                "x-rapidapi-key" : "API_KEY",
+                "x-rapidapi-key" : process.env.API_KEY,
                 "x-rapidapi-host" : "youtube-mp36.p.rapidapi.com"
             }
         });
