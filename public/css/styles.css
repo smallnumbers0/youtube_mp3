@@ -20,6 +20,7 @@ h1, .success{
 }
 
 button {
+    margin: 5px auto;
     padding: 5px;
     color: red;
 }
