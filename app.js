@@ -32,7 +32,7 @@ app.post("/convert-mp3", async (req, res)=> {
             "method" : "GET",
             "headers" : {
                 "x-rapidapi-key" : process.env.API_KEY,
-                "x-rapidapi-host" : "youtube-mp36.p.rapidapi.com"
+                "x-rapidapi-host" : "youtube-mp3-download1.p.rapidapi.com"
             }
         });
 

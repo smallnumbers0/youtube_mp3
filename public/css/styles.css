@@ -1,4 +1,25 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
+    width: 100%;
+}
+
+h1, .success{
+    color: red;
+}
+
+.top-container, .bottom-container {
+    width: 500px;
+    text-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-id-input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+    color: red;
 }
